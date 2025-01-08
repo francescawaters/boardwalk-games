@@ -96,6 +96,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#student {
+    background-color: #416a8e;
+    color: white;
+    padding: 10px;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -158,6 +166,12 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    }
+
+    /* For consistent placement and size*/
+    #student {
+        max-width: 441px;
+        justify-self: center;
     }
 }
 
