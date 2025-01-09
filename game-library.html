@@ -234,6 +234,8 @@
                     <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
                         adventure begin! Fill out your details and preferred game below, and we'll have it set aside for
                         you when you arrive.</p>
+                    <!-- action set on the form to provide users with feedback when the form has been submitted.
+                            We have not learned how to handle form data yet, so the form data is not actually sent anywhere for this project -->
                     <form action="success.html" method="GET">
                         <div class="row">
                             <div class="col-12 col-lg-4 mb-3">
@@ -250,7 +252,7 @@
                             </div>
                             <div class="col-12 col-lg-8 mb-3">
                                 <label for="game-type" class="form-label">Select game</label>
-                                <select id="game-type" class="form-select" name="event-type" required>
+                                <select id="game-type" class="form-select" name="game-type" required>
                                     <option value="" selected>Select game</option>
                                     <option value="galaxy pioneers">Galaxy Pioneers</option>
                                     <option value="mystic w">Mystic Woods</option>
@@ -267,13 +269,13 @@
                                 <input class="form-control" id="date" name="date" type="date" required>
                             </div>
                         </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <div class="col-12 text-end">
                             <button type="submit" class="btn custom-button-outline">Submit</button>
                         </div>
-                            
-                        </div>
-                    </form>
+
                 </div>
+                </form>
+            </div>
             </div>
         </section>
     </main>
